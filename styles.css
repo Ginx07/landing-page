@@ -1,3 +1,91 @@
-.body {
-    background-color: slategray;
+body {
+    font-family: roboto;
+    border: 4px black solid;
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(208, 224, 240);
+}
+
+.header, .hero {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+
+}
+.header {
+    display: flex;
+    padding: 15px;
+    flex-direction: row;
+}
+
+.hero {
+    padding: 50px;
+    display: flex;
+    border: 3px green solid;
+    flex-direction: column;
+    /* justify-content: flex-start;
+    flex-shrink: 1; */
+    flex-wrap: wrap;
+    flexgrow
+
+}
+
+.img {
+    max-width: fit-content;
+    min-width: min-content;
+    
+    
+}
+
+.h-left {
+        margin-right: auto;
+        font-weight: 800;
+        
+}
+
+.tiles {
+    /* background-color:(235, 228, 218); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px red solid;
+    margin: 10px;
+    /* width: 25%; */
+    height:min-content;
+    /* padding-bottom: 25%; */
+    flex-wrap: wrap;
+    flex-grow: 1;
+
+
+}
+
+.right {
+    border: 5px red dotted;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quote {
+    background-color: #9fa0a1;
+    /* border: 5px blue dashed; */
+    padding: 75px;
+}
+
+.footer {
+    /* background-color: blue; */
+    padding: 40px;
+    display: block;
+}
+
+.middle{
+    /* border: 5px green dotted; */
+    display: flex;
+    flex-shrink: 0;
+    margin: 50px;
+}
+
+button {
+    background-color: blue;
+    border-radius: 6px;
 }
